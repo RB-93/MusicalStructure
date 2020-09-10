@@ -68,8 +68,8 @@ public class LibraryActivity extends AppCompatActivity implements ArtistFragment
         }
 
         /*
-         *  Fetching ViewId for Views and handling Drawerlayout navigation
-         *  Setup Navigation drawerlayout into teh view layout
+         *  Fetching ViewId for Views and handling DrawerLayout navigation
+         *  Setup Navigation DrawerLayout into teh view layout
          */
         drawerLayout = findViewById(R.id.drawer);
         actionBarDrawerToggle = new ActionBarDrawerToggle(this, drawerLayout, toolbar, R.string.open, R.string.close);
@@ -195,7 +195,7 @@ public class LibraryActivity extends AppCompatActivity implements ArtistFragment
     }
 
     /**
-     * Inflating Menu for Drawerlayout from Menu resource
+     * Inflating Menu for DrawerLayout from Menu resource
      *
      * @param menu for Menu resource instance, getting SearchView on Action Bar
      * @return true if Search bar handled
