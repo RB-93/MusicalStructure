@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.rohit.examples.android.surmayi">
+
+    <application
+        android:allowBackup="false"
+        android:icon="@mipmap/splash_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/splash_logo_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            tools:ignore="InnerclassSeparator">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Activity.LibraryActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/library"
+            android:theme="@style/AppTheme"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Activity.FavoritesActivity"
+            android:label="@string/favorites"
+            android:theme="@style/CustomTheme"
+            tools:ignore="InnerclassSeparator" />
+        <activity
+            android:name=".Activity.NowPlayingActivity"
+            android:configChanges="keyboardHidden|orientation"
+            android:label="@string/now_playing"
+            android:theme="@style/CustomTheme"
+            tools:ignore="InnerclassSeparator" />
+    </application>
+
+</manifest>

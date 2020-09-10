@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/card_height"
+        android:background="@color/colorPrimary"
+        android:contentDescription="@string/content_desc"
+        android:padding="5dp"
+        android:scaleType="centerInside"
+        android:src="@mipmap/splash_logo" />
+
+</LinearLayout>

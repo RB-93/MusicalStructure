@@ -1,0 +1,87 @@
+<resources>
+    <!-- Resource ID for App name -->
+    <string name="app_name">Surmayi</string>
+
+    <!-- Drawer layout String resource for open /close behaviour -->
+    <string name="open">Open Drawer</string>
+    <string name="close">Close Drawer</string>
+
+    <!-- String Resource IDs for Hardcoded Text of Song Title -->
+    <string name="comfortably_numb">Comfortably Numb</string>
+    <string name="downtown">Downtown</string>
+    <string name="get_used_to_me">Get Used To Me</string>
+    <string name="good_time">Good Time</string>
+    <string name="homeless">Homeless</string>
+    <string name="let_me_go">Let Me Go</string>
+    <string name="my_way">My Way</string>
+    <string name="never_say_die">Never Say Die</string>
+    <string name="no_sense">No Sense</string>
+    <string name="payback">Payback</string>
+    <string name="photograph">Photograph</string>
+    <string name="selfie">Selfie</string>
+    <string name="stitches">Stitches</string>
+    <string name="updown_funk">Uptown Funk</string>
+    <string name="wildest_dreams">Wildest Dreams</string>
+
+    <!-- String Resource IDs for Hardcoded Text of Artist Title -->
+    <string name="pink_floyd">Pink Floyd</string>
+    <string name="macklemore_ryan">Macklemore, Ryan Lewis</string>
+    <string name="jbieber">Justin Bieber</string>
+    <string name="carly_jepsen">Carly Rae Jepsen</string>
+    <string name="ed_sheeran">Ed Sheeran</string>
+    <string name="avril">Avril Lavigne</string>
+    <string name="fetty">Fetty Wap</string>
+    <string name="bells">Sleigh Bells</string>
+    <string name="bieber">Justin Bieber</string>
+    <string name="juicy_kevin">Juicy J, Kevin Gates</string>
+    <string name="sheeran">Ed Sheeran</string>
+    <string name="chainsmoke">The ChainSmokers</string>
+    <string name="mendes">Shawn Mendes</string>
+    <string name="ronson">Mark Ronson</string>
+    <string name="taylor">Taylor Swift</string>
+
+    <!-- String Resource IDs for Hardcoded Text of Album Title -->
+    <string name="diamonds">Classic Diamonds</string>
+    <string name="billboard1">VA-Billboard 100-Week 41</string>
+    <string name="purpose">Purpose</string>
+    <string name="kiss">Kiss-Deluxe Edition</string>
+    <string name="five">5 (Ed Sheeran Album</string>
+    <string name="_avril">Avril Lavigne</string>
+    <string name="billboard2">VA-Billboard 100-Week 41</string>
+    <string name="reign">Reign of Terror</string>
+    <string name="purpose2">Purpose</string>
+    <string name="furious">Furious 7 OST</string>
+    <string name="billboard3">VA-Billboard 100-Week 41</string>
+    <string name="_selfie">#Selfie</string>
+    <string name="billboard4">VA-Billboard 100-Week 41</string>
+    <string name="billboard5">VA-Billboard 100-Week 41</string>
+    <string name="billboard6">VA-Billboard 100-Week 41</string>
+
+    <!-- Initial tilme for Seekbar -->
+    <string name="initial_time">0:00</string>
+
+    <!-- Empty state text -->
+    <string name="no_fav_added">No favorites added yet.</string>
+
+    <!-- back button text -->
+    <string name="backLib">Back to Library</string>
+
+    <!-- Song start over -->
+    <string name="first_song">This is the first song</string>
+
+    <!-- Action Bar title for each Activity -->
+    <string name="library">Libraray</string>
+    <string name="favorites">Favorites</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="artist">Artists</string>
+    <string name="album">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="search">Search</string>
+
+    <string name="content_desc">No Content Description</string>
+    <string name="play_next">Play next</string>
+    <string name="add_to_playlist">Add to playlist</string>
+    <string name="add_to_favorites">Add to favorites</string>
+    <string name="share">Share</string>
+
+</resources>

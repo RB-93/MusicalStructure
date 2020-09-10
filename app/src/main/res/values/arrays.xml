@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Drawable Resource IDs for RAW files -->
+    <integer-array name="albumImg">
+        <item>@drawable/comfortably_numb</item>
+        <item>@drawable/downtown</item>
+        <item>@drawable/get_used_to_me</item>
+        <item>@drawable/good_time</item>
+        <item>@drawable/homeless</item>
+        <item>@drawable/let_me_go</item>
+        <item>@drawable/my_way</item>
+        <item>@drawable/never_say_die</item>
+        <item>@drawable/no_sense</item>
+        <item>@drawable/payback</item>
+        <item>@drawable/photograph</item>
+        <item>@drawable/selfie</item>
+        <item>@drawable/stitches</item>
+        <item>@drawable/updown_funk</item>
+        <item>@drawable/wildest_dreams</item>
+    </integer-array>
+
+    <!-- String resource IDs for Song Title -->
+    <string-array name="songName">
+        <item>@string/comfortably_numb</item>
+        <item>@string/downtown</item>
+        <item>@string/get_used_to_me</item>
+        <item>@string/good_time</item>
+        <item>@string/homeless</item>
+        <item>@string/let_me_go</item>
+        <item>@string/my_way</item>
+        <item>@string/never_say_die</item>
+        <item>@string/no_sense</item>
+        <item>@string/payback</item>
+        <item>@string/photograph</item>
+        <item>@string/selfie</item>
+        <item>@string/stitches</item>
+        <item>@string/updown_funk</item>
+        <item>@string/wildest_dreams</item>
+    </string-array>
+
+    <!-- String resource IDs for Artist Title -->
+    <string-array name="songArtistName">
+        <item>@string/pink_floyd</item>
+        <item>@string/macklemore_ryan</item>
+        <item>@string/jbieber</item>
+        <item>@string/carly_jepsen</item>
+        <item>@string/ed_sheeran</item>
+        <item>@string/avril</item>
+        <item>@string/fetty</item>
+        <item>@string/bells</item>
+        <item>@string/bieber</item>
+        <item>@string/juicy_kevin</item>
+        <item>@string/sheeran</item>
+        <item>@string/chainsmoke</item>
+        <item>@string/mendes</item>
+        <item>@string/ronson</item>
+        <item>@string/taylor</item>
+    </string-array>
+
+    <!--  String Resource IDs for Album Title -->
+    <string-array name="songAlbumName">
+        <item>@string/diamonds</item>
+        <item>@string/billboard1</item>
+        <item>@string/purpose</item>
+        <item>@string/kiss</item>
+        <item>@string/five</item>
+        <item>@string/_avril</item>
+        <item>@string/billboard2</item>
+        <item>@string/reign</item>
+        <item>@string/purpose2</item>
+        <item>@string/furious</item>
+        <item>@string/billboard3</item>
+        <item>@string/_selfie</item>
+        <item>@string/billboard4</item>
+        <item>@string/billboard5</item>
+        <item>@string/billboard6</item>
+    </string-array>
+</resources>

@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    tools:context=".Activity.NowPlayingActivity">
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/holo_purple">
+
+        <RelativeLayout
+            android:id="@+id/play_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:elevation="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/song_art"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_marginBottom="@dimen/default_margin"
+                android:contentDescription="@string/content_desc"
+                android:scaleType="centerCrop" />
+
+
+            <TextView
+                android:id="@+id/song_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginTop="8dp"
+                android:layout_toStartOf="@id/song_list"
+                android:layout_toEndOf="@id/song_art"
+                android:maxLines="1"
+                android:paddingTop="@dimen/padding_2dp"
+                android:paddingBottom="@dimen/padding_2dp"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/song_artist"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/song_text"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_toEndOf="@id/song_art"
+                android:maxLines="1"
+                android:paddingTop="@dimen/padding_2dp"
+                android:paddingBottom="@dimen/padding_2dp"
+                android:textColor="@android:color/holo_purple"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:id="@+id/song_list"
+                android:layout_width="@dimen/image_width"
+                android:layout_height="@dimen/image_height"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="@dimen/default_margin"
+                android:layout_marginTop="8dp"
+                android:contentDescription="@string/content_desc"
+                android:padding="20dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_queue_music_" />
+        </RelativeLayout>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/album_img"
+            android:layout_width="160dp"
+            android:layout_height="123dp"
+            android:layout_margin="@dimen/margin_8dp"
+            android:layout_marginTop="@dimen/margin_8dp"
+            android:layout_marginBottom="@dimen/margin_8dp"
+            android:elevation="16dp"
+            app:civ_border_color="@android:color/white"
+            app:civ_border_width="2dp"
+            app:layout_constraintBottom_toTopOf="@+id/play_toggle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/play_title" />
+
+        <ImageView
+            android:id="@+id/favorite"
+            android:layout_width="@dimen/image_width"
+            android:layout_height="@dimen/image_height"
+            android:layout_marginTop="@dimen/default_margin"
+            android:layout_marginEnd="@dimen/default_margin"
+            android:contentDescription="@string/content_desc"
+            android:padding="18dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_favorite"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/play_title" />
+
+        <TextView
+            android:id="@+id/time_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_8dp"
+            android:padding="@dimen/padding_4dp"
+            android:text="@string/initial_time"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/seekbar"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <SeekBar
+            android:id="@+id/seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toTopOf="@id/play_toggle"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <TextView
+            android:id="@+id/time_end"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/margin_8dp"
+            android:padding="@dimen/padding_4dp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            app:layout_constraintBottom_toTopOf="@id/seekbar"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+        <LinearLayout
+            android:id="@+id/play_toggle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@android:color/white"
+            android:elevation="16dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <ImageView
+                android:id="@+id/repeat"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/image_height"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_weight="1"
+                android:contentDescription="@string/content_desc"
+                android:padding="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_repeat" />
+
+            <ImageView
+                android:id="@+id/prev"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/image_height"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_weight="1"
+                android:contentDescription="@string/content_desc"
+                android:padding="32dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_skip_previous" />
+
+            <ImageView
+                android:id="@+id/play_pause"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_weight="1"
+                android:contentDescription="@string/content_desc"
+                android:src="@drawable/ic_play" />
+
+            <ImageView
+                android:id="@+id/next"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/image_height"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_weight="1"
+                android:contentDescription="@string/content_desc"
+                android:padding="32dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_skip_next" />
+
+            <ImageView
+                android:id="@+id/shuffle"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/image_height"
+                android:layout_marginTop="@dimen/default_margin"
+                android:layout_weight="1"
+                android:contentDescription="@string/content_desc"
+                android:padding="38dp"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_shuffle" />
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+</ScrollView>
