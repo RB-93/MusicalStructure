@@ -9,7 +9,7 @@ This project was created as a part of the Android Basics Nanodegree and for Goog
 
 ## Challenges:
 
-* I faced an issue of large APK/file size, which is a bad impression towards an app enviroment and memeory footprint. It was due to MBs of media files and high quality images from different soures.
+* I faced an issue of large APK/file size, which is a bad impression towards an app enviroment and memory footprint. It was due to MBs of media files and high quality images from different soures.
 * The app work flow lagged and/or issued ANR (stopped responding)
 
 ## Solution:
