@@ -13,7 +13,7 @@ This project was created as a part of the Android Basics Nanodegree and for Goog
 * The app work flow lagged and/or issued ANR (stopped responding)
 
 ## Solution:
-* I have referred and utilized some good sources to compress pictures and media files as mentioned in 
+* I have referred and utilized some good sources to compress pictures and media files as mentioned in [Credits](https://github.com/RB-93/MusicalStructure/blob/master/README.md#credits) section.
 
 ## Usage:
 
