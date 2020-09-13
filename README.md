@@ -4,7 +4,7 @@
 
 ## Description:
 
-This project was created as a part of the Android Basics Nanodegree and for Google India Scholarship Challenge 2k18. The goal is to design and layout the flow for the structure of a Music Player app.
+This project was created as a part of the Android Basics Nanodegree and for Google India Scholarship Challenge 2k18. The goal of this project is to design and layout the flow for the structure of a Music Player app.
 * In this project, I have build an app to play music from the user’s library of music.
 
 ## Challenges:
