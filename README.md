@@ -13,6 +13,7 @@ This project was created as a part of the Android Basics Nanodegree and for Goog
 * The app work flow lagged and/or issued ANR (stopped responding)
 
 ## Solution:
+
 * I have referred and utilized some good sources to compress pictures and media files as mentioned in [Credits](https://github.com/RB-93/MusicalStructure/blob/master/README.md#credits) section.
 
 ## Usage:
@@ -20,9 +21,12 @@ This project was created as a part of the Android Basics Nanodegree and for Goog
 <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_1[1].jpg?raw=true" width="250" height="450" title="Launch"> &nbsp; &nbsp; <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_2[1].jpg?raw=true" width="250" height="450" title="Song List"> &nbsp; &nbsp; <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_3[1].jpg?raw=true" width="250" height="450" title="Favorite Screen"> <br/><br/> <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_4[1].jpg?raw=true" width="250" height="450" title="Song Play Screen"> &nbsp; &nbsp; <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_5[1].jpg?raw=true" width="250" height="450" title="Menu Screen"> <br/><br/> <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_6[1].jpg?raw=true" width="450" height="250" title="Artist Screen (Landscape)"> &nbsp; <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_7[1].jpg?raw=true" width="450" height="250" title="Album Screen (Landscape)">
 
 ## Legends:
+
 * ^The word is originated from an Urdu word “Surma”, that means black or dark grey kohl; always used for praising anything.
 
 ## Credits:
+
+* Specific words etymology sourced from Google & Wikipedia.
 * Images e.g., Album, Artist pictures sourced from Google.
 * Media files sourced from [last.fm](https://www.last.fm).
 * Images compressed from [https://www.mp3smaller.com/](https://www.mp3smaller.com/).
