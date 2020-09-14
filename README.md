@@ -1,6 +1,6 @@
 # MusicalStructure
 
-## Project name: Surmayi<a href="">^</a>
+## Project name: Surmayi<a href="https://github.com/RB-93/MusicalStructure/blob/master/README.md#legends">^</a>
 
 ## Description:
 
