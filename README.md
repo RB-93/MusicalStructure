@@ -1,6 +1,6 @@
 # MusicalStructure
 
-## Project name: Surmayi
+## Project name: Surmayi<a href="">^</a>
 
 ## Description:
 
@@ -19,6 +19,8 @@ This project was created as a part of the Android Basics Nanodegree and for Goog
 
 <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_1[1].jpg?raw=true" width="250" height="450" title="Launch"> &nbsp; &nbsp; <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_2[1].jpg?raw=true" width="250" height="450" title="Song List"> &nbsp; &nbsp; <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_3[1].jpg?raw=true" width="250" height="450" title="Favorite Screen"> <br/><br/> <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_4[1].jpg?raw=true" width="250" height="450" title="Song Play Screen"> &nbsp; &nbsp; <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_5[1].jpg?raw=true" width="250" height="450" title="Menu Screen"> <br/><br/> <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_6[1].jpg?raw=true" width="450" height="250" title="Artist Screen (Landscape)"> &nbsp; <img src="https://github.com/RB-93/MusicalStructure/blob/master/App-demo/Music_7[1].jpg?raw=true" width="450" height="250" title="Album Screen (Landscape)">
 
+## Legends:
+* The word is originated from an Urdu word “Surma”, that means black or dark grey kohl; always used for praising anything.
 
 ## Credits:
 * Images e.g., Album, Artist pictures sourced from Google.
